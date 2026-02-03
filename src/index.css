@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+:root {
+  color-scheme: light;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  background-color: #f0f2f5;
+}
+
+/* Custom scrollbar for WhatsApp look */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.2);
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+@theme {
+  --color-wa-nav-bg: #eae6df;
+  --color-wa-list-bg: #ffffff;
+  --color-wa-chat-bg: #f0f2f5;
+  --color-wa-green: #00a884;
+  --color-wa-green-light: #25d366;
+  --color-wa-text-primary: #111b21;
+  --color-wa-text-secondary: #667781;
+  --color-wa-search-bg: #f0f2f5;
+  --color-wa-filter-bg: #f0f2f5;
+  --color-wa-filter-active-bg: #d9fdd3;
+  --color-wa-filter-active-text: #008069;
+}
+
+.meta-ai-ring {
+  background: conic-gradient(from 180deg at 50% 50%, #00f2fe 0deg, #4facfe 90deg, #00f2fe 180deg, #4facfe 270deg, #00f2fe 360deg);
+  border-radius: 50%;
+  padding: 2px;
+}
